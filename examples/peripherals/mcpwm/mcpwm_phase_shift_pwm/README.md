@@ -19,10 +19,10 @@ MCPWM unit can be [0,1]
 
 ## Pin assignment
 * PWM outputs  
-  GPIO_NUM_27 // PWM0A output for LEAD leg, Low Side
-  GPIO_NUM_26 // PWM0B output for LEAD leg, High Side
-  GPIO_NUM_25 // PWM1A output for LAG leg, Low Side
-  GPIO_NUM_33 // PWM1B output for LAG leg, High Side
+  GPIO_NUM_27 // PWM0A output for LEAD leg, Low Side  
+  GPIO_NUM_26 // PWM0B output for LEAD leg, High Side  
+  GPIO_NUM_25 // PWM1A output for LAG leg, Low Side  
+  GPIO_NUM_33 // PWM1B output for LAG leg, High Side  
 * Optional, shutdown/fault input for PWM outputs: disables output when pulled low  
   GPIO_NUM_4 // hardware shutdown input signal for PWM output
 
