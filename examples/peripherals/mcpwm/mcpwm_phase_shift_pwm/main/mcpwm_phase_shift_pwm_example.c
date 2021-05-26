@@ -73,7 +73,7 @@ void initialize_phase_shift_pwm()
     // "pspwm_resync_enable_output(mcpwm_unit_t mcpwm_num);"
     errors |= pspwm_enable_hw_fault_shutdown(mcpwm_num,
                                              gpio_fault_shutdown,
-                                             MCPWM_LOW_LEVEL_TGR);
+                                             fault_pin_active_level);
     // Pull-up enabled for avoiding shutdown on start
     errors |= gpio_pullup_en(gpio_fault_shutdown);
 
